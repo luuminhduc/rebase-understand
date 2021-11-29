@@ -1,4 +1,5 @@
 import React from "react";
+import Colors from "./components/Colors";
 import Comments from "./components/comments";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -15,6 +16,7 @@ const App = () => {
       <Comments />
       <Todos />
       <Users />
+      <Colors />
     </div>
   );
 };
