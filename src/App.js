@@ -3,6 +3,7 @@ import Comments from "./components/comments";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Posts from "./components/Header/Posts";
+import Todos from "./components/Todos";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Posts />
       <Footer />
       <Comments />
+      <Todos />
     </div>
   );
 };
