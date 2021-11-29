@@ -4,7 +4,7 @@ import Comments from "./components/comments";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Posts from "./components/Header/Posts";
-import Images from "./components/Images";
+import Texts from "./components/Texts";
 import Todos from "./components/Todos";
 import Users from "./components/Users";
 
@@ -17,8 +17,7 @@ const App = () => {
       <Comments />
       <Todos />
       <Users />
-      <Colors />
-      <Images />
+      <Texts />
     </div>
   );
 };
