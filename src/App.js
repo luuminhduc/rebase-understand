@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Posts from "./components/Header/Posts";
 import Todos from "./components/Todos";
+import Users from "./components/Users";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Footer />
       <Comments />
       <Todos />
+      <Users />
       <Colors />
     </div>
   );
